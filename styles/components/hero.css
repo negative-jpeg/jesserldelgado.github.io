@@ -1,0 +1,160 @@
+.hero {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.hero__img {
+    border-radius: 75%;
+    width: 15rem;
+    height: 15rem;
+
+}
+
+.hero__subtitle {
+    margin-top: 20px;
+    margin-bottom: -10px;
+    color: var(--clr-eternity500);
+    font-size: var(--size-base);
+    line-height: 0.9;
+}
+
+.hero__title {
+    color: var(--clr-islandspice50);
+    text-transform: uppercase;
+    font-size: var(--size-6xl);
+    letter-spacing: -0.05em;
+    line-height: 0.8;
+
+}
+
+.hero__jobtitle{
+    color: var(--clr-meteor600);
+    font-size: var(--size-base);
+    line-height: 0.1;
+}
+
+.hero__description {
+    margin-top: 10px;
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-eternity500);
+}
+
+.hero__btn {
+    text-transform: uppercase;
+    font-size: var(--size-sm);
+    margin-top: 8px;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .hero {
+    gap: 1.5rem;
+}
+
+.hero__img {
+    width: 16.25rem;
+    height: 16.25rem;
+}
+
+.hero__subtitle {
+    font-size: var(--size-lg);
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.hero__title {
+    font-size: var(--size-7xl);
+
+}
+
+.hero__jobtitle{
+    font-size: var(--size-xl);
+}
+
+.hero__description {
+    font-size: var(--size-base);
+}
+
+.hero__btn {
+    font-size: var(--size-2xl);
+}
+}
+
+/* s */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* Lg */
+@media (min-width: 1024px) {    
+    .hero__img {
+        width: 17rem;
+        height: 17rem;
+    }
+    
+    .hero__subtitle {
+        font-size: var(--size-xl);
+        margin-top: 5px;
+        margin-bottom: -10px;
+    }
+    
+    .hero__title {
+        font-size: var(--size-7xl);
+    
+    }
+    
+    .hero__jobtitle{
+        font-size: var(--size-2xl);
+    }
+    
+    .hero__description {
+        font-size: var(--size-lg);
+    }
+    
+    .hero__btn {
+        font-size: var(--size-2xl);
+    }
+}
+
+/* xL */
+@media (min-width: 1280px) {
+    .hero {
+        gap: 2rem;
+    }
+
+    .hero__img {
+        width: 20rem;
+        height: 20rem;
+    }
+    
+    .hero__subtitle {
+        font-size: var(--size-2xl);
+    }
+    
+    .hero__title {
+        font-size: var(--size-7xl);
+    
+    }
+    
+    .hero__jobtitle{
+        font-size: var(--size-2xl);
+    }
+    
+    .hero__description {
+        font-size: var(--size-xl);
+    }
+    
+    .hero__btn {
+        font-size: var(--size-2xl);
+    }
+}
+
+/* 2xL */
+/* @media (min-width: 1536px) {} */
